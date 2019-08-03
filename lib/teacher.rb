@@ -4,7 +4,7 @@ class Teacher < User
   
   def teach
     @teach
-    KNOWLEDGE.split("")
+    KNOWLEDGE.join("")
   end 
   
 end
